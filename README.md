@@ -6,7 +6,7 @@ Java implementation of a user rating-based movie recommendation system
 
 This is the Assinment of the coursera course Java Programming: Build a Recommendation System
 
-## Given input files on movie titles and users ratings, we do:
+### Given input files on movie titles and users ratings, we do:
 
 > 1. Read in and parse data into lists and maps;
 
@@ -19,7 +19,7 @@ This is the Assinment of the coursera course Java Programming: Build a Recommend
 > 5. Display recommended movies for a given user on a webpage.
 
 
-###How to play:
+### How to play:
 
 The version of assignments link: https://www.dukelearntoprogram.com//capstone/recommender.php?id=PqLe8NszI2TCjM
 
