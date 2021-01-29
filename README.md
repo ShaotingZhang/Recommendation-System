@@ -24,5 +24,7 @@ This is the Assinment of the coursera course Java Programming: Build a Recommend
 The version of assignments link: https://www.dukelearntoprogram.com//capstone/recommender.php?id=PqLe8NszI2TCjM
 
 Open the link above, it will show some movies and the ratings which are waiting to be chose.
+
 You can rate part of the movies on the website.
+
 After you submit your ratings, the website will display the recommended movies to you.
