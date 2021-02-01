@@ -27,7 +27,7 @@ public class FirstRatings {
     public void testLoadMovies(){
      // call the method loadMovies on the file ratemovies_short.csv
      
-     ArrayList<Movie> loadedMovies = loadMovies("data/ratedmoviesfull.csv");
+     ArrayList<Movie> loadedMovies = loadMovies("../data/ratedmoviesfull.csv");
  
      System.out.println("number of movies: "+ loadedMovies.size());
      //System.out.println("loadedMovie: "+ loadedMovies);
@@ -115,7 +115,7 @@ public class FirstRatings {
     public void testLoadRaters(){
         // print the total number of raters
         //ArrayList<Rater> loadedRaters = loadRaters("data/ratings_short.csv");
-        ArrayList<Rater> loadedRaters = loadRaters("data/ratings.csv");
+        ArrayList<Rater> loadedRaters = loadRaters("../data/ratings.csv");
         
         // find the number of ratings for a particular rater
    

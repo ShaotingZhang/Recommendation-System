@@ -14,8 +14,8 @@ public class MovieRunnerWithFilters {
     public void printAverageRatings(){
 
         int minimalRaters =35;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
 
         //String moviefile = "ratedmoviesfull.csv";
         //String ratingsfile = "data/ratings.csv";
@@ -40,8 +40,8 @@ public class MovieRunnerWithFilters {
 
     public void printAverageRatingsByYearAfter(){
         int minimalRaters =20;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
 
         ThirdRatings tr = new ThirdRatings(ratingsfile);
         System.out.println("read data for "+ tr.getRaterSize() + " raters");
@@ -67,8 +67,8 @@ public class MovieRunnerWithFilters {
 
     public void printAverageRatingsByGenre(){
         int minimalRaters =20;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         String selecGenre = "Comedy";
 
         ThirdRatings tr = new ThirdRatings(ratingsfile);
@@ -91,8 +91,8 @@ public class MovieRunnerWithFilters {
 
     public void printAverageRatingsByMinutes(){
         int minimalRaters =5;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../dataratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         int minMinutes = 105;
         int maxMinutes = 135;
         ThirdRatings tr = new ThirdRatings(ratingsfile);
@@ -115,8 +115,8 @@ public class MovieRunnerWithFilters {
 
     public void printAverageRatingsByDirectors(){
         int minimalRaters =4;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         String directors = "Clint Eastwood,Joel Coen,Martin Scorsese,Roman Polanski,Nora Ephron,Ridley Scott,Sydney Pollack";
 
         ThirdRatings tr = new ThirdRatings(ratingsfile);
@@ -140,8 +140,8 @@ public class MovieRunnerWithFilters {
 
     public void printAverageRatingsByYearAfterAndGenre(){
         int minimalRaters =8;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         int yearCount = 1990;
         String selecGenre = "Drama";
 
@@ -174,8 +174,8 @@ public class MovieRunnerWithFilters {
 
      public void printAverageRatingsByDirectorsAndMinutes(){
         int minimalRaters =3;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "data/ratings.csv";
+        String moviefile = "../dataratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
 
         int minMinutes = 90;
         int maxMinutes = 180;

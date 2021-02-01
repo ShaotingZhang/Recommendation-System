@@ -12,9 +12,9 @@ This is the Assinment of the coursera course Java Programming: Build a Recommend
 
 > 2. Calculate average ratings;
 
-> 3. Calculate how similar a given rater is to another user based on ratings; and
+> 3. Calculate how similar a given rater is to the user based on ratings;
 
-> 4. Recommend movies to a given user based on ratings. 
+> 4. Recommend movies to the given user based on similarity. 
 
 > 5. Display recommended movies for a given user on a webpage.
 

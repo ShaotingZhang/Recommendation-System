@@ -14,8 +14,8 @@ public class MovieRunnerSimilarRatings {
 	public void printAverageRatings(){
 
         int minimalRaters =35;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
 
         //String moviefile = "ratedmoviesfull.csv";
         //String ratingsfile = "data/ratings.csv";
@@ -44,8 +44,8 @@ public class MovieRunnerSimilarRatings {
 
     public void printAverageRatingsByYearAfterAndGenre(){
         int minimalRaters =8;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         int yearCount = 1990;
         String selecGenre = "Drama";
 
@@ -82,8 +82,8 @@ public class MovieRunnerSimilarRatings {
     	String id = "71";
     	int numSimilarRaters=20;
 
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         FourthRatings fr = new FourthRatings();
         RaterDatabase.initialize(ratingsfile);
         MovieDatabase.initialize(moviefile);
@@ -105,8 +105,8 @@ public class MovieRunnerSimilarRatings {
     	int numSimilarRaters=20;
     	String selecGenre = "Mystery";
 
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         FourthRatings fr = new FourthRatings();
         RaterDatabase.initialize(ratingsfile);
         MovieDatabase.initialize(moviefile);
@@ -128,8 +128,8 @@ public class MovieRunnerSimilarRatings {
     	int numSimilarRaters=10;
     	String inputDirectors = "Clint Eastwood,J.J. Abrams,Alfred Hitchcock,Sydney Pollack,David Cronenberg,Oliver Stone,Mike Leigh";
 
-    	String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+    	String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         FourthRatings fr = new FourthRatings();
         RaterDatabase.initialize(ratingsfile);
         MovieDatabase.initialize(moviefile);
@@ -152,8 +152,8 @@ public class MovieRunnerSimilarRatings {
         int maxMinutes = 160;
     	String selecGenre = "Romance";
 
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         FourthRatings fr = new FourthRatings();
         RaterDatabase.initialize(ratingsfile);
         MovieDatabase.initialize(moviefile);
@@ -181,8 +181,8 @@ public class MovieRunnerSimilarRatings {
         int maxMinutes = 200;
         int yearCount = 1975;
 
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
         FourthRatings fr = new FourthRatings();
         RaterDatabase.initialize(ratingsfile);
         MovieDatabase.initialize(moviefile);
@@ -209,8 +209,8 @@ public class MovieRunnerSimilarRatings {
     public void printAverageRatingsByYearAfterAndGenreAndMinutes(){
         
         int minimalRaters =5;
-        String moviefile = "ratedmoviesfull.csv";
-        String ratingsfile = "ratings.csv";
+        String moviefile = "../data/ratedmoviesfull.csv";
+        String ratingsfile = "../data/ratings.csv";
 
         int minMinutes = 120;
         int maxMinutes = 180;

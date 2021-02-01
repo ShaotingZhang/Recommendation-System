@@ -14,8 +14,8 @@ public class MovieRunnerAverage {
     public void printAverageRatings(){
         int minimalRaters =50;
         //create secondRatings object
-        String moviesFile = "data/ratedmoviesfull.csv";
-        String ratingsFile = "data/ratings.csv";
+        String moviesFile = "../data/ratedmoviesfull.csv";
+        String ratingsFile = "../data/ratings.csv";
    
         SecondRatings sr = new SecondRatings(moviesFile,ratingsFile);
         // print the number of movies and the number of raters
@@ -38,8 +38,8 @@ public class MovieRunnerAverage {
 
         // String title = "The Maze Runner";
         String title = "Vacation";
-        String moviesFile = "data/ratedmoviesfull.csv";
-        String ratingsFile = "data/ratings.csv";
+        String moviesFile = "../data/ratedmoviesfull.csv";
+        String ratingsFile = "../data/ratings.csv";
         // create a SecondRatings object
         SecondRatings sr = new SecondRatings(moviesFile,ratingsFile);
 
